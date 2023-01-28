@@ -4,3 +4,4 @@ date,true,false
 director,true,true
 description,true,true
 subtitlelang,true,false
+releaseyear,true,false
