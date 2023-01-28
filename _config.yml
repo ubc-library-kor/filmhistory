@@ -20,14 +20,14 @@ source-code: https://github.com/gpark47/filmhistory-gh
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Korean Film History 
+title: Korean History through Film 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a template for creating simple digital exhibits
+tagline: A Resource of the University of British Columbia's Asian Library
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
+description: "The Korean History through Film resource was created - "
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: UBC Asian Library
 
 ##########
 # COLLECTION SETTINGS
@@ -61,7 +61,7 @@ metadata: historyfilmvideo
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
