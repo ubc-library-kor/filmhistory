@@ -5,6 +5,6 @@ releaseyear, Release Year
 description,Description,
 date,Date,true
 method,Available Format(s)
-permalinks,Permalinks,,true
+permalinks,Permalink(s),,true
 language,Dialogue Language(s),
 subtitlelang, Subtitle Language(s)
