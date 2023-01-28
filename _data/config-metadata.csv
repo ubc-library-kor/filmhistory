@@ -2,8 +2,8 @@ field,display_name,browse_link,external_link
 title,Title,
 director,Director,
 releaseyear, Release Year
+date,Historical Date,
 description,Description,
-date,Date,true
 method,Available Format(s)
 permalinks,Permalink(s),,true
 language,Dialogue Language(s),
