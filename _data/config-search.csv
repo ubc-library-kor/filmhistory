@@ -1,6 +1,6 @@
 field,index,display
 title,true,true
-date,true,true
+date,true,false
 director,true,true
 description,true,true
-subtitlelang,true,true
+subtitlelang,true,false
