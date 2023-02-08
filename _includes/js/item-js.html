@@ -86,8 +86,20 @@
             }
             fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + browseLinks + '</dd>';
         }
+        /* customized multiple external links */
+        {%- elsif f.external_link == "true" -%}
+        if (record[{{ f.field | jsonify }}]) { 
+            var links = record[{{ f.field | jsonify }}].split(';');
+            var externalLinks = "";
+            for (var i = 0, len = links.length; i < len; i++) {
+                if (links[i] != "") {
+                    externalLinks += '<a href="' + links[i].trim() + '" target="_blank" rel="noopener">' + links[i].trim() + '</a><br>';
+                }
+            }
+            fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + externalLinks + '</dd>';
+        }
         {%- else -%}
-        if (record[{{ f.field | jsonify }}]) { fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">{% if f.external_link == "true" %}<a href="' + record[{{ f.field | jsonify }}] + '" target="_blank" rel="noopener">' + record[{{ f.field | jsonify }}] + '</a>{% else %}' + record[{{ f.field | jsonify }}] + '{% endif %}</dd>'; }
+        if (record[{{ f.field | jsonify }}]) { fields += '<dt class="field">{{ f.display_name }}:</dt> <dd class="field-value">' + record[{{ f.field | jsonify }}] + '</dd>'; }
         {% endif %}{% endfor %}
         fields += '</dl>';
         document.getElementById("item-metadata").innerHTML = fields;
