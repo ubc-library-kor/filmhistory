@@ -5,4 +5,4 @@ director,true,true
 description,true,true
 subtitlelang,true,false
 releaseyear,true,false
-method,true,false
+medium,true,false
