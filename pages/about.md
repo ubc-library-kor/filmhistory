@@ -29,13 +29,13 @@ If searching for a film about the 1980s, search "1980." The historical date and/
 
 If a film largely features flashbacks and covers a wide span of time, the film has been categorized based on its latest possible date. For example,
 
-{% include feature/card.md header="국제시장 Kukche Sijang Ode to My Father" text="
+국제시장 Kukche Sijang Ode to My Father
 
 **Release Year:** 2015
 
 **Historical Date:** 2015
 
-**Description:** Follows the story of a protagonist across 60 years of his life. This begins from the Korean War (1950-1953), post-war life, Korean miners and nurses in Germany (1963), the Vietnam War (1964-1973), and the KBS Live Broadcast 이산가족을 찾습니다 (Finding Dispersed Families) in 1983." width="30" centered=true %}
+**Description:** Follows the story of a protagonist across 60 years of his life. This begins from the Korean War (1950-1953), post-war life, Korean miners and nurses in Germany (1963), the Vietnam War (1964-1973), and the KBS Live Broadcast 이산가족을 찾습니다 (Finding Dispersed Families) in 1983." 
  
 This film is categorized under the historical date, 2015 and release year, 2015. However, all of the dates in the description are searchable using the search function as well.
 
