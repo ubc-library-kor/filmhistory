@@ -28,7 +28,7 @@ The historical date was determined by the film’s synoposis and/or in-film refe
 If searching for a film about the 1980s, search "1980." The historical date and/or description will include this term.
 
 If a film largely features flashbacks and covers a wide span of time, the film has been categorized based on its latest possible date. For example, 
-{% include feature/card.html header="*국제시장 Kukche Sijang Ode to my father*" text="
+{% include feature/card.html text="
 
 Title:
     국제시장 Kukche Sijang Ode to my father 
