@@ -6,3 +6,4 @@ description,true,true
 subtitlelang,true,false
 releaseyear,true,false
 medium,true,false
+date, true, true
