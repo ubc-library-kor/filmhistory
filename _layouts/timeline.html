@@ -55,7 +55,7 @@ custom-foot: js/timeline-js.html
                                 {% elsif item.format contains 'video' %}
                                 {{ '/assets/lib/icons/' | relative_url }}{{ icons.icon-video }}.svg
                                 {% elsif item.format contains 'pdf' %}{{ '/assets/lib/icons/' | relative_url }}{{ icons.icon-pdf }}.svg
-                                {% else %} "/filmhistory-gh/assets/lib/icons/ubc-crest-white".svg
+                                {% else %} {{/filmhistory-gh/assets/lib/icons/ubc-crest-white}}.svg
                                 {%- endif -%}" alt="filetype thumbnail">
                             </div>
                         </div>
