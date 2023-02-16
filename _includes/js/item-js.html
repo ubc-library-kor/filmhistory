@@ -42,7 +42,7 @@
         } else {
             /* fall back to no preview if it doesn't know the format */
             itemImage= '<img class="w-50" src="{{ "/assets/lib/icons/ubc-crest-white.svg" | relative_url }}" alt="No preview found">';
-            class="m-2 btn btn-dark" title="See Permalink(s)">See Permalink(s)</a>';
+            itemLink= '<a href="' + objectLink + '" target="_blank" rel="noopener" class="m-2 btn btn-dark" title="See Permalink(s)">See Permalink(s)</a>';
                     }
 
         {% if stubs contains "timeline" %}
