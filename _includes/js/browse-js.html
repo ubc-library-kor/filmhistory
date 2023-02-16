@@ -29,7 +29,7 @@ function makeCard(obj) {
     } else if (obj.format.includes("pdf")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-pdf }}.svg';
     } else {
-        thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-ubc }}.svg';
+        thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-default }}.svg';
     }  
     // start card
     var card = '<div class="item col-lg-4 col-md-6 col-sm-12 mb-2"><div class="card">';
@@ -73,7 +73,7 @@ function makeCard(obj) {
         } else if(obj.format.includes('video')){
             card += 'icon-video';
         } else {
-            card += 'icon-ubc';
+            card += 'icon-default';
         }
         card += '"></span></a></small></p>';
     }
