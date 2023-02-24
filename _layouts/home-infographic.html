@@ -5,21 +5,7 @@ layout: page
 {%- assign items = site.data[site.metadata] -%}
 <div class="row">
  <div class="col-md-8">
-     <h1> Welcome </h1>
-      <p style="text-indent: 25px;"> 
-     <p>Suggestions on how to use this resource:</p>
-        
-    <p>1.	Browse! You can search the collection in a random order, release year, and historical date.</p>
-        
-
-    <p>2.	Do you have a specific interest in an event, topic, or time? Use the search feature to search for films that mention a keyword in its description.</p>
-   
-       
-        <p>For example, search terms include, “Korean War”, “1980s”, “Family”, and “IMF”.</p>
-        
-    
-<p>If you’re still unsure of where to start, conduct a brief web search for recommended films by other watchers, film critiques, and scholars.</p>
-  
+     {% include index/description.html %}  
     </div> 
   </div>
  <div class="col-md-4"> 
