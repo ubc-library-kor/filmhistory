@@ -5,18 +5,20 @@ layout: page
 {%- assign items = site.data[site.metadata] -%}
 <div class="row">
   <div class="col-md-8">
-
+    {% include feature/timelinejs.html %}
     {% include index/carousel.html title="Sample Items" height="300" %}
   
   </div>
   <div class="col-md-4">  
     
-    {% include feature/modal.html button="How to Use this Resource" title="Suggestions:" text="1.	Browse! You can search through a random order, release year, and historical date.
-2.	Do you have a specific interest in an event, topic, or time? Use the search feature to search for films that mention a keyword in its description.
-Example search terms include, “Korean War”, “1980s”, “Family”, and “IMF”.
+    {% include index/description.html {% include feature/modal.html button="How to Use this Resource" title="Suggestions:" text="1.	Browse! You can search the collection in a random order, release year, and historical date.
+
+    2.	Do you have a specific interest in an event, topic, or time? Use the search feature to search for films that mention a keyword in its description.
+
+    For example, search terms include, “Korean War”, “1980s”, “Family”, and “IMF”.
+    
 If you’re still unsure of where to start, conduct a brief web search for recommended films by other watchers, film critiques, and scholars. 
-" color="primary" %}
-    {% include index/description.html %}
+" color="primary" %} %}
     {% include index/time.html %}
 
   </div>
