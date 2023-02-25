@@ -3,7 +3,7 @@ primary,
 secondary, #004171
 success,
 info,
-warning,
+warning, #892401
 danger,
 light,
 dark,
