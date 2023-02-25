@@ -3,19 +3,19 @@
 layout: page
 ---
 {%- assign items = site.data[site.metadata] -%}
-<div class="row">
- <div class="col-md-8">
-     {% include index/description.html %}  
-    </div> 
-  </div>
- <div class="col-md-4"> 
-  
-    {% include index/time.html %}
+
+div class="row">
+  <div class="col-md-8">
+
+    {% include index/description.html %}
+    {% include index/carousel.html title="Browse" height="300" %}
 
   </div>
-  <div class="col-md-12">
-   
-{% include index/carousel.html title="Browse" %}
+  <div class="col-md-4">  
+
+
+    {% include index/description.html %}
+    {% include index/time.html %}
 
   </div>
 </div>
