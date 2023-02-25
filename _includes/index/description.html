@@ -11,5 +11,7 @@
         <p>For example, search terms include, “Korean War”, “1980s”, “Family”, and “IMF”.</p>
         
 <p>If you’re still unsure of where to start, conduct a brief web search for recommended films by other watchers, film critiques, and scholars.</p>
+     {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}
+    {% if about > 0 %}<a class="btn btn-outline-primary" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>{% endif %}
   </div>
 </div>
