@@ -20,8 +20,7 @@
     "events": [
       {% for item in items %}{% if item.date %}{
         "media": {
-          "url": "{% if item.youtubeid %}{{ 'https://www.youtube.com/watch?v=' | append: item.youtubeid }}{% elsif item.vimeoid %}{{ 'https://vimeo.com/' | append: item.vimeoid }}{% elsif item.filename contains 'http' %}{{ item.filename }}{% else %}{{ item.filename | prepend: '/objects/' | absolute_url }}{% endif %}",
-          "blank": {{'/filmhistory-gh/assets/lib/icons/ubc-crest-white.svg'}}
+          "url": "{% if item.youtubeid %}{{ 'https://www.youtube.com/watch?v=' | append: item.youtubeid }}{% elsif item.vimeoid %}{{ 'https://vimeo.com/' | append: item.vimeoid }}{% elsif item.filename contains 'http' %}{{ item.filename }}{% else %}{{ item.filename | prepend: '/objects/' | absolute_url }} {% else %} {{/filmhistory-gh/assets/lib/icons/ubc-crest-white}}.svg {% endif %}", 
           "caption": {{ item.title | jsonify }},
           "link": "{{ '/item.html' | absolute_url | append: '?id=' | append: item.objectid }}",
           "credit": "{{ }}"
