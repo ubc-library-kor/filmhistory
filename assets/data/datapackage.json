@@ -133,6 +133,14 @@
             "format":"csv",
             "profile":"data-resource"
         },
+  {
+            "name": "metadata-excel",
+            "path": "metadata.xlsx",
+            "title": "{{ site.title | escape }} full metadata in xlsx",
+            "description": "Complete metadata export for {{ site.title | escape }} objects.",
+            "format":"xlsx",
+            "profile":"data-resource"
+        },
         {
             "name": "metadata-json",
             "path": "metadata.json",
