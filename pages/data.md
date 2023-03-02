@@ -21,4 +21,4 @@ Alternatively, click the "More Options" button at the top right to view the full
 3.	Open the file’s ‘Properties’
 4.	Rename the file extension from .xlxs to .csv
 
-<p>Then, the file should be a CSV file that can be properly opened using Excel.</p>" color="primary" %}
+<p>Then, the file should be a CSV file that can be properly opened using Excel.</p>" color="secondary" %}
