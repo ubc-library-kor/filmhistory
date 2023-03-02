@@ -42,7 +42,6 @@ This guide is created to support students interested in learning about 20th cent
 
 To end, this guide hopes to help students in their study of Korean history. In order to include several interesting, historically based films, films not available in the UBC library catalogue were included in this guide.
 
-[https://www.kmdb.or.kr/eng/main] -- include brief intro to KOFA because we use their youtube links, can also be a guide for people to choose their films
 
 ## About the Guide
 
