@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="/objects/korea-unsplash.jpg" %}
 
-{% include feature/nav-menu.html sections="Search Guide; Accountability - Collection Statement;About the Guide;About CollectionBuilder" %}
+{% include feature/nav-menu.html sections="Search Guide;"About CollectionBuilder" %}
 
 ## Search Guide
 Use the following attributes to find a film using the search function:
