@@ -33,7 +33,6 @@ If a film largely features flashbacks and covers a wide span of time, the film h
 text="<p><strong>Release Year:</strong> 2015</p> <p><strong>Historical Date:</strong> 2015</p> <p><strong>Description:</strong> Follows the story of a protagonist across 60 years of his life. This begins from the Korean War (1950-1953), post-war life, Korean miners and nurses in Germany (1963), the Vietnam War (1964-1973), and the KBS Live Broadcast 이산가족을 찾습니다 (Finding Dispersed Families) in 1983.</p>" width="25" centered=true %}
 
 This film is categorized under the historical date, 2015 and release year, 2015. However, all of the dates in the description are searchable using the search function as well.
-
 ## About CollectionBuilder
 
 This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
