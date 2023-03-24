@@ -22,7 +22,7 @@ Alternatively, click the "More Options" button at the top right to view the full
 
 <p>Then, the file should be a CSV file that can be properly opened using Excel.</p>
 
-Alternative solutions include: 
+Alternative solutions: 
 <p> a) Upload the CSV file to Google Sheets. Open with Google Sheets.</p> 
 <p> b) Open the CSV File using Notepad / TextEdit.</p>
 <p> c) On the Data page, download the file directly as an .xlxs file. Open and utilize as an .xlxs file.</p>" color="tertiary" %}
